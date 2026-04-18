@@ -2,86 +2,70 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Sreemukhi | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sree Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- Navbar -->
 <header>
-  <nav>
-    <h2 class="logo">Sreemukhi</h2>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Hero -->
-  <div class="hero">
-    <h1>Hello, I'm <span>Sreemukhi</span></h1>
-    <p>Aspiring Full Stack Developer</p>
-    <div class="buttons">
-      <a href="#projects" class="btn">View Projects</a>
-      <a href="mailto:buddarrajusreemukhi@gmail.com" class="btn hire">Hire Me</a>
-    </div>
-  </div>
+  <h1>Sree</h1>
+  <p>Aspiring Full Stack Developer</p>
 </header>
 
-<!-- About -->
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
 <section id="about">
   <h2>About Me</h2>
   <p>
-    I am a passionate and dedicated Full Stack Developer learning to build modern,
-    responsive, and user-friendly web applications. I enjoy solving problems and
-    continuously improving my skills.
+    I am Sree, a beginner web developer learning HTML, CSS, and JavaScript.
+    I am passionate about building websites and becoming a full stack developer.
   </p>
 </section>
 
-<!-- Projects -->
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+</section>
+
 <section id="projects">
   <h2>Projects</h2>
 
-  <div class="project-card">
-    <h3>Portfolio Website</h3>
-    <p>Personal portfolio showcasing my skills and projects.</p>
+  <div class="project">
+    <h3>Calculator App</h3>
+    <p>Performs basic arithmetic operations like addition, subtraction, multiplication.</p>
   </div>
 
-  <div class="project-card">
-    <h3>Future Interns Task Projects</h3>
-    <p>Internship tasks demonstrating my development skills.</p>
+  <div class="project">
+    <h3>To-Do List</h3>
+    <p>Allows users to add and manage daily tasks easily.</p>
   </div>
 
 </section>
 
-<!-- Skills -->
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="skills">
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>JavaScript</span>
-    <span>Git & GitHub</span>
-  </div>
-</section>
-
-<!-- Contact -->
 <section id="contact">
   <h2>Contact Me</h2>
-  <p>
-    Email: 
-    <a href="mailto:buddarrajusreemukhi@gmail.com">
-      buddarrajusreemukhi@gmail.com
-    </a>
-  </p>
+  <form id="contactForm">
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="email" placeholder="Your Email" required><br>
+    <textarea placeholder="Your Message" required></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+  <p id="msg"></p>
 </section>
 
-<!-- Footer -->
 <footer>
-  <p>© 2026 Sreemukhi | Portfolio</p>
+  <p>© 2026 Sree Portfolio</p>
 </footer>
 
 <script src="script.js"></script>
