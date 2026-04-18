@@ -1,73 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sree Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sree | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-  <h1>Sree</h1>
-  <p>Aspiring Full Stack Developer</p>
+    <h1>Sree</h1>
+    <p>Aspiring Full Stack Developer</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    I am Sree, a beginner web developer learning HTML, CSS, and JavaScript.
-    I am passionate about building websites and becoming a full stack developer.
-  </p>
+<section class="hero">
+    <h2>Hello, I'm Sree 👋</h2>
+    <p>I build modern, responsive websites.</p>
+    <a href="#projects" class="btn">View My Work</a>
 </section>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-  </ul>
+<section id="about" class="card">
+    <h2>About Me</h2>
+    <p>
+        I am an aspiring Full Stack Developer passionate about building
+        clean and user-friendly websites. I am learning HTML, CSS, and
+        JavaScript and continuously improving my skills.
+    </p>
 </section>
 
-<section id="projects">
-  <h2>Projects</h2>
+<section id="skills" class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>GitHub</div>
+        <div>Responsive Design</div>
+    </div>
+</section>
 
-  <div class="project">
-    <h3>Calculator App</h3>
-    <p>Performs basic arithmetic operations like addition, subtraction, multiplication.</p>
-  </div>
+<section id="projects" class="card">
+    <h2>Projects</h2>
 
-  <div class="project">
-    <h3>To-Do List</h3>
-    <p>Allows users to add and manage daily tasks easily.</p>
-  </div>
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio built using HTML, CSS, and JavaScript.</p>
+        <a href="https://github.com/sreemukhi/FUTURE_FS_01" target="_blank">View Code</a>
+    </div>
+
+    <div class="project">
+        <h3>More Projects Coming Soon</h3>
+        <p>I will be adding more projects like Calculator and To-Do App.</p>
+    </div>
 
 </section>
 
-<section id="contact">
-  <h2>Contact Me</h2>
-  <form id="contactForm">
-    <input type="text" placeholder="Your Name" required><br>
-    <input type="email" placeholder="Your Email" required><br>
-    <textarea placeholder="Your Message" required></textarea><br>
-    <button type="submit">Send</button>
-  </form>
-  <p id="msg"></p>
+<section id="contact" class="card">
+    <h2>Contact</h2>
+
+    <p>Email:
+        <a href="mailto:buddarrajusreemukhi@gmail.com">
+            buddarrajusreemukhi@gmail.com
+        </a>
+    </p>
+
+    <p>GitHub:
+        <a href="https://github.com/sreemukhi" target="_blank">
+            sreemukhi
+        </a>
+    </p>
+
 </section>
 
 <footer>
-  <p>© 2026 Sree Portfolio</p>
+    <p>© 2026 Sree | Portfolio</p>
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
